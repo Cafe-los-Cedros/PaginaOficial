@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Café Los Cedros — café de nuestra finca en Teruel, Huila. Conoce nuestra historia, proceso artesanal y cómo pedirlo.">
+  <meta name="theme-color" content="#2A1B16">
+  <meta name="author" content="Café Los Cedros">
+  <title>Café Los Cedros | El sabor de nuestra tierra</title>
+
+  <!-- Fuentes elegantes y legibles para títulos y texto general. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Hoja de estilos principal. -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Enlace de accesibilidad para saltar directamente al contenido. -->
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- =========================
+       ENCABEZADO / NAVEGACIÓN
+       ========================= -->
+  <header class="site-header" id="inicio">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Café Los Cedros, inicio">
+        <img class="brand-logo" id="brandLogo" src="logo/logo.png" alt="Logo de Café Los Cedros">
+        <span class="brand-name">
+          <strong>Café Los Cedros</strong>
+          <small>Teruel · Huila</small>
+        </span>
+      </a>
+
+      <!-- Botón para abrir/cerrar el menú en pantallas pequeñas. -->
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+        <a class="nav-link is-active" href="#inicio">Inicio</a>
+        <a class="nav-link" href="#historia">Nuestra historia</a>
+        <a class="nav-link" href="#proceso">Proceso</a>
+        <a class="nav-link" href="#galeria">Galería</a>
+        <a class="nav-link" href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- =========================
+         HERO / PRESENTACIÓN
+         ========================= -->
+    <section class="hero section" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true">
+        <video autoplay muted loop playsinline preload="metadata" poster="bg/bg-1.jpg">
+          <source src="material/mp4/c1.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Teruel, Huila · Colombia</p>
+          <h1 id="hero-title">El sabor de nuestra <em>tierra.</em></h1>
+          <p class="hero-text">
+            Entre montañas, cafetales y trabajo familiar nace Café Los Cedros: un café que lleva el carácter de nuestra finca directamente hasta tu taza.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contacto">Quiero pedirlo <span aria-hidden="true">↗</span></a>
+            <a class="btn btn-ghost" href="#historia">Conocer la historia</a>
+          </div>
+
+          <div class="hero-note">
+            <span class="leaf-mark" aria-hidden="true">✦</span>
+            <span>Café 100% de nuestra finca · Café molido</span>
+          </div>
+        </div>
+
+        <div class="hero-card reveal reveal-delay-2">
+          <div class="hero-card-inner">
+            <span class="mini-label">CAFÉ LOS CEDROS</span>
+            <strong>De nuestra montaña<br>hasta tu taza.</strong>
+            <div class="hero-card-line"></div>
+            <span class="mini-copy">Cuidado artesanal · Huila, Colombia</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         DATOS DESTACADOS
+         ========================= -->
+    <section class="facts section section-tight" aria-label="Características de Café Los Cedros">
+      <div class="container facts-grid">
+        <article class="fact-card reveal">
+          <span class="fact-number">100%</span>
+          <h2>De nuestra finca</h2>
+          <p>Una historia que empieza en nuestras propias montañas.</p>
+        </article>
+        <article class="fact-card reveal reveal-delay-1">
+          <span class="fact-number">HUILA</span>
+          <h2>Origen local</h2>
+          <p>Teruel, Huila, Colombia: tierra de montaña y café.</p>
+        </article>
+        <article class="fact-card reveal reveal-delay-2">
+          <span class="fact-number">ARTESANAL</span>
+          <h2>Cuidado en cada etapa</h2>
+          <p>El grano recibe atención desde el cafetal hasta el secado.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- =========================
+         HISTORIA DE LA MARCA
+         ========================= -->
+    <section class="story section" id="historia" aria-labelledby="story-title">
+      <div class="container story-grid">
+        <div class="story-image reveal">
+          <img src="material/img/pub12.jpg" alt="Familia entre cafetales de Café Los Cedros" loading="lazy">
+          <span class="image-caption">Una historia que nace en familia.</span>
+        </div>
+
+        <div class="story-copy reveal reveal-delay-1">
+          <p class="eyebrow">Nuestra historia</p>
+          <h2 id="story-title">De las montañas de Teruel a tu taza.</h2>
+          <p>
+            Entre las montañas de Teruel, Huila, donde se encuentran el clima, la tierra y el trabajo de nuestras familias, nace la historia de Café Los Cedros.
+          </p>
+          <p>
+            Aquí comienza nuestro recorrido: en nuestra finca, rodeados de cafetales y de una tierra que llevamos con orgullo. Queremos mostrarte paso a paso todo lo que hay detrás de nuestro café, desde sus primeros días hasta llegar a una taza llena de sabor.
+          </p>
+          <blockquote>“El sabor de nuestra tierra.”</blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         PROCESO DEL CAFÉ
+         ========================= -->
+    <section class="process section" id="proceso" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Detrás de cada grano</p>
+          <h2 id="process-title">Un proceso hecho con cuidado.</h2>
+          <p>
+            Cada etapa suma al resultado final. Estas imágenes muestran una parte del trabajo que hay detrás de Café Los Cedros.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <article class="process-card reveal">
+            <div class="process-number">01</div>
+            <img src="material/img/pub2.jpg" alt="Cafetales de Café Los Cedros" loading="lazy">
+            <div class="process-body">
+              <h3>El cafetal</h3>
+              <p>Todo empieza en las plantas que crecen en nuestra tierra.</p>
+            </div>
+          </article>
+
+          <article class="process-card reveal reveal-delay-1">
+            <div class="process-number">02</div>
+            <img src="material/img/pub7.jpg" alt="Granos de café de la finca" loading="lazy">
+            <div class="process-body">
+              <h3>Selección</h3>
+              <p>Observamos el fruto y cuidamos cada paso antes de avanzar.</p>
+            </div>
+          </article>
+
+          <article class="process-card reveal reveal-delay-2">
+            <div class="process-number">03</div>
+            <img src="material/img/pub14.jpg" alt="Proceso artesanal de secado del café" loading="lazy">
+            <div class="process-body">
+              <h3>Secado artesanal</h3>
+              <p>Cuidamos el grano durante el secado para conservar su esencia.</p>
+            </div>
+          </article>
+
+          <article class="process-card reveal reveal-delay-3">
+            <div class="process-number">04</div>
+            <img src="material/img/pub21.jpg" alt="Presentación de Café Los Cedros listo para venta" loading="lazy">
+            <div class="process-body">
+              <h3>Listo para disfrutar</h3>
+              <p>El café llega molido y preparado para acompañar tus momentos.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         GALERÍA
+         ========================= -->
+    <section class="gallery section" id="galeria" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-heading heading-inline reveal">
+          <div>
+            <p class="eyebrow">Galería</p>
+            <h2 id="gallery-title">Una mirada a nuestro café.</h2>
+          </div>
+          <p>Momentos reales de la finca, el proceso y nuestro producto.</p>
+        </div>
+
+        <!--
+          Las 25 imágenes están preparadas en el HTML.
+          JavaScript muestra inicialmente 8 para mantener la página liviana visualmente
+          y permite desplegar el resto con el botón "Ver todas".
+        -->
+        <div class="gallery-grid" id="galleryGrid">
+          <button class="gallery-item gallery-item--wide reveal" data-gallery="0" type="button"><img src="material/img/pub1.jpg" alt="Cafetales de Café Los Cedros" loading="lazy"><span>La finca</span></button>
+          <button class="gallery-item reveal" data-gallery="1" type="button"><img src="material/img/pub2.jpg" alt="Plantas de café" loading="lazy"><span>Origen</span></button>
+          <button class="gallery-item reveal" data-gallery="2" type="button"><img src="material/img/pub3.jpg" alt="Cafetales y montaña" loading="lazy"><span>Nuestra tierra</span></button>
+          <button class="gallery-item reveal" data-gallery="3" type="button"><img src="material/img/pub4.jpg" alt="Hojas y frutos del cafetal" loading="lazy"><span>Cuidado</span></button>
+          <button class="gallery-item reveal" data-gallery="4" type="button"><img src="material/img/pub7.jpg" alt="Frutos maduros del café" loading="lazy"><span>El fruto</span></button>
+          <button class="gallery-item gallery-item--tall reveal" data-gallery="5" type="button"><img src="material/img/pub9.jpg" alt="Selección de frutos de café" loading="lazy"><span>Selección</span></button>
+          <button class="gallery-item reveal" data-gallery="6" type="button"><img src="material/img/pub10.jpg" alt="Granos de café seleccionados" loading="lazy"><span>Detalle</span></button>
+          <button class="gallery-item reveal" data-gallery="7" type="button"><img src="material/img/pub12.jpg" alt="Familia en el cafetal" loading="lazy"><span>Familia</span></button>
+
+          <button class="gallery-item extra-gallery" data-gallery="8" type="button"><img src="material/img/pub5.jpg" alt="Paisaje montañoso de la finca" loading="lazy"><span>Montaña</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="9" type="button"><img src="material/img/pub6.jpg" alt="Plantas de café" loading="lazy"><span>Verde de la finca</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="10" type="button"><img src="material/img/pub8.jpg" alt="Cafetales de la finca" loading="lazy"><span>Cafetales</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="11" type="button"><img src="material/img/pub11.jpg" alt="Granos de café" loading="lazy"><span>Grano</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="12" type="button"><img src="material/img/pub13.jpg" alt="Cosecha de frutos de café" loading="lazy"><span>Cosecha</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="13" type="button"><img src="material/img/pub15.jpg" alt="Proceso de secado" loading="lazy"><span>Secado</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="14" type="button"><img src="material/img/pub16.jpg" alt="Secado de café" loading="lazy"><span>Proceso</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="15" type="button"><img src="material/img/pub17.jpg" alt="Café durante su secado" loading="lazy"><span>Tradición</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="16" type="button"><img src="material/img/pub18.jpg" alt="Empaque de Café Los Cedros" loading="lazy"><span>Presentación</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="17" type="button"><img src="material/img/pub19.jpg" alt="Detalle del empaque de Café Los Cedros" loading="lazy"><span>Empaque</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="18" type="button"><img src="material/img/pub20.jpg" alt="Persona mostrando el café" loading="lazy"><span>Compartir</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="19" type="button"><img src="material/img/pub21.jpg" alt="Bolsas de Café Los Cedros" loading="lazy"><span>Producto</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="20" type="button"><img src="material/img/pub22.jpg" alt="Presentación del café" loading="lazy"><span>Disponible</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="21" type="button"><img src="material/img/pub23.jpg" alt="Café Los Cedros en la montaña" loading="lazy"><span>De la finca</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="22" type="button"><img src="material/img/pub24.jpg" alt="Producto Café Los Cedros" loading="lazy"><span>Origen y producto</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="23" type="button"><img src="material/img/pub25.jpg" alt="Café Los Cedros entre cafetales" loading="lazy"><span>Los Cedros</span></button>
+          <button class="gallery-item extra-gallery" data-gallery="24" type="button"><img src="material/img/pub14.jpg" alt="Granos de café durante el secado" loading="lazy"><span>Secado</span></button>
+        </div>
+
+        <div class="gallery-more reveal">
+          <button class="btn btn-secondary" id="toggleGallery" type="button">Ver todas las fotos</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         PRODUCTO / CTA DE VENTA
+         ========================= -->
+    <section class="product section" aria-labelledby="product-title">
+      <div class="container product-card reveal">
+        <div class="product-copy">
+          <p class="eyebrow">Ya está disponible</p>
+          <h2 id="product-title">Café molido para disfrutar el sabor de nuestras montañas.</h2>
+          <p>
+            Haz tu pedido y acompaña tus mañanas, tardes y momentos especiales con un café nacido en nuestra tierra.
+          </p>
+          <div class="product-tags" aria-label="Características del producto">
+            <span>🌱 De nuestra finca</span>
+            <span>☕ Café molido</span>
+            <span>📍 Teruel, Huila</span>
+            <span>🚚 Pedidos y entregas</span>
+          </div>
+          <a class="btn btn-primary" href="#contacto">Quiero hacer mi pedido <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <div class="product-image">
+          <img src="material/img/pub22.jpg" alt="Bolsas de Café Los Cedros listas para venta" loading="lazy">
+          <span class="seal">☕<br><small>HECHO EN<br>HUILA</small></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+         CONTACTO / REDES
+         ========================= -->
+    <section class="contact section" id="contacto" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">Conversemos</p>
+          <h2 id="contact-title">Tu próximo café empieza aquí.</h2>
+          <p>
+            ¿Ya lo probaste? Escríbenos para conocer disponibilidad, precios, entregas y realizar tu pedido.
+          </p>
+
+          <div class="contact-actions">
+            <!-- Instagram es el enlace oficial proporcionado por la marca. -->
+            <a class="social-button" href="https://www.instagram.com/cafeloscedros.huila/" target="_blank" rel="noopener noreferrer" aria-label="Abrir Instagram de Café Los Cedros">
+              <span class="social-icon">◎</span>
+              <span><strong>Instagram</strong><small>@cafeloscedros.huila</small></span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+
+            <!-- Estos botones son configurables desde script.js cuando la marca tenga más redes. -->
+            <a class="social-button optional-social is-disabled" id="facebookLink" href="#" aria-disabled="true" tabindex="-1">
+              <span class="social-icon">f</span>
+              <span><strong>Facebook</strong><small>Agregar enlace</small></span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="social-button optional-social is-disabled" id="tiktokLink" href="#" aria-disabled="true" tabindex="-1">
+              <span class="social-icon">♪</span>
+              <span><strong>TikTok</strong><small>Agregar enlace</small></span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="whatsapp-card reveal reveal-delay-1">
+          <div class="wa-orbit" aria-hidden="true"></div>
+          <span class="wa-icon" aria-hidden="true">✆</span>
+          <p class="eyebrow">Pedidos directos</p>
+          <h3>Habla con nosotros por WhatsApp</h3>
+          <p>Pregunta por el café disponible y coordinamos tu pedido.</p>
+          <a class="btn btn-whatsapp" id="whatsappButton" href="#" target="_blank" rel="noopener noreferrer">
+            <span>Escríbenos por WhatsApp</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+          <small id="whatsappHint">¿Que esperas?.</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================
+       PIE DE PÁGINA
+       ========================= -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="footer-brand" href="#inicio">Café Los Cedros</a>
+        <p>El sabor de nuestra tierra. · Teruel, Huila — Colombia.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#historia">Historia</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+      <div class="footer-copy">
+        <p>© <span id="currentYear"></span> Café Los Cedros</p>
+        <p>Hecho con orgullo desde Huila. ☕</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================
+       LIGHTBOX DE GALERÍA
+       ========================= -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Vista ampliada de fotografía">
+    <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Cerrar fotografía">×</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" type="button" aria-label="Fotografía anterior">‹</button>
+    <figure class="lightbox-figure">
+      <img id="lightboxImage" src="" alt="">
+      <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" type="button" aria-label="Fotografía siguiente">›</button>
+  </div>
+
+  <!-- JavaScript principal. Se carga al final para no bloquear el renderizado inicial. -->
+  <script src="script.js" defer></script>
+</body>
+</html>
